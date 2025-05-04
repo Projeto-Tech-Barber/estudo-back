@@ -1,0 +1,6 @@
+@Surferbot.Api_HostAddress = http://localhost:5033
+
+GET {{Surferbot.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
