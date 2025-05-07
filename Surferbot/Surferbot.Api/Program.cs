@@ -1,8 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Surferbot.Infrastructure.Data;
 using Surferbot.Application;
 using Surferbot.Application.UseCases.Clientes;
 using Surferbot.Application.Validadores.Clientes;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<SurferbotContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection"),
+        x => x.MigrationsAssembly("Surferbot.Infrastructure")));
 
 // Add services to the container.
 
