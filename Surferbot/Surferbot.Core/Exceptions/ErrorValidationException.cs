@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Surferbot.Core.Exceptions
 {
-    public class ErrorValidationException:SurferBotExceptions
+    public class ErrorValidationException: SystemException
     {
         public List<string> Errors { get; set; }
         public ErrorValidationException(List<string> errorMenssages)

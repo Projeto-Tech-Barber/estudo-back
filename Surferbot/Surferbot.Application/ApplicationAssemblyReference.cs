@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Surferbot.Core.Exceptions
+namespace Surferbot.Application
 {
-    public class SurferBotExceptions:SystemException
-    {
-    }
+    public class ApplicationAssemblyReference;
+    
+    
 }
