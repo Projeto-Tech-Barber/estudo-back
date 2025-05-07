@@ -12,6 +12,7 @@ builder.Services.AddDbContext<SurferbotContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection"),
         x => x.MigrationsAssembly("Surferbot.Infrastructure")));
 
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -26,6 +27,11 @@ builder.Services.AddScoped<IClienteUseCase, ClienteUseCase>();
 builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<CriarClienteDtoValidator>();
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<SurferbotContext>();
+    db.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
