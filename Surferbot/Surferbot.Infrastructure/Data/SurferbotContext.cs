@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Surferbot.Application.Modelos.SurferbotContatos;
+using Surferbot.Core.Entidades.SurferBotCliente;
 using Surferbot.Infrastructure.Data.Mappings;
 
 namespace Surferbot.Infrastructure.Data;
@@ -11,6 +12,7 @@ public class SurferbotContext : DbContext
     }
 
     private DbSet<SurferbotContato> Contatos { get; set; }
+    public DbSet<Cliente> Clientes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -28,6 +28,19 @@ namespace Surferbot.Api.Controllers.Cadastro_Cliente
             }
             
         }
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            try
+            {
+                var cliente = _clienteUseCase.Get(id);
+                return Ok(cliente);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
 

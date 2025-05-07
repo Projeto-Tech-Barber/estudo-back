@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Surferbot.Core.Entidades;
+using Surferbot.Core.Entidades.SurferBotCliente;
 
 namespace Surferbot.Application.Modelos.Clientes
 {

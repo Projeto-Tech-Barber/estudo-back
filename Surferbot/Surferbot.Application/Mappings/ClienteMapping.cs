@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Surferbot.Core.Entidades;
 using AutoMapper;
 using Surferbot.Application.Modelos.Clientes;
+using Surferbot.Core.Entidades.SurferBotCliente;
 
 namespace Surferbot.Application.Mappings
 {

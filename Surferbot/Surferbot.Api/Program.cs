@@ -3,6 +3,8 @@ using Surferbot.Infrastructure.Data;
 using Surferbot.Application;
 using Surferbot.Application.UseCases.Clientes;
 using Surferbot.Application.Validadores.Clientes;
+using Surferbot.Core.Entidades.SurferBotCliente;
+using Surferbot.Infrastructure.Repositories.Clientes;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +23,7 @@ builder.Services.AddAutoMapper(x =>
     x.AddMaps(typeof(ApplicationAssemblyReference).Assembly);
 });
 builder.Services.AddScoped<IClienteUseCase, ClienteUseCase>();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
 builder.Services.AddScoped<CriarClienteDtoValidator>();
 var app = builder.Build();
 
