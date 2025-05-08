@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using Surferbot.Application.Modelos.Clientes;
-using Surferbot.Core.Entidades;
 using Surferbot.Core.Exceptions;
 
 namespace Surferbot.Application.Validadores.Clientes

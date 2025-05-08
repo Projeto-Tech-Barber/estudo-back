@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Surferbot.Application.Modelos.SurferbotContatos;
 using Surferbot.Core.Entidades.SurferBotCliente;
 
 namespace Surferbot.Infrastructure.Data.Mappings
