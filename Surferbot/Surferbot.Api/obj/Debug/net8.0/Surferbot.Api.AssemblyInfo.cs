@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Surferbot.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09ef01ce3f0c5cac468314a3216f8bd3906a9f75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1661ad21c1f6a3dfda4063f68785e85a1141d500")]
 [assembly: System.Reflection.AssemblyProductAttribute("Surferbot.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Surferbot.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
