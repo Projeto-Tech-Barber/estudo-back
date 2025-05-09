@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "f2xEWTi92FM=",
+  "success": true,
+  "projectFilePath": "D:\\BackupSSD\\Downloads\\Documentos\\Programacao\\Projeto-Tech-Barber\\teste\\estudo-back\\Surferbot\\Surferbot.Core\\Surferbot.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus Negreiros\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
+    "C:\\Users\\Matheus Negreiros\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Matheus Negreiros\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Matheus Negreiros\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Matheus Negreiros\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

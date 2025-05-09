@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9p5lSCzR9dvClsk6NtOsK85R/JDuONevvr+TGL1tcUM=",
+  "Source": "Surferbot.Api",
+  "BasePath": "_content/Surferbot.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
