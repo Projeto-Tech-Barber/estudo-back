@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FluentValidation;
+using Microsoft.AspNetCore.Mvc;
+using Surferbot.Application.Modelos;
 using Surferbot.Application.Modelos.Clientes;
 using Surferbot.Application.UseCases.Clientes;
+using Surferbot.Core.Exceptions;
 
 
 namespace Surferbot.Api.Controllers.Cadastro_Cliente
@@ -24,6 +27,12 @@ namespace Surferbot.Api.Controllers.Cadastro_Cliente
             }
             catch(Exception ex) 
             {
+                if (ex is ValidationException vex)
+                {
+                    List<string> mensagens = vex.Errors.Select(x => x.ErrorMessage).ToList();
+                    var erros = new ErrorValidationModel(mensagens);
+                    return BadRequest(erros);
+                }
                 return BadRequest(ex.Message);
             }
             

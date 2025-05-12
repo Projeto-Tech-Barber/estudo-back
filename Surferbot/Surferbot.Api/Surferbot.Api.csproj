@@ -37,7 +37,6 @@
     <ProjectReference Include="..\Surferbot.Application\Surferbot.Application.csproj" />
     <ProjectReference Include="..\Surferbot.Core\Surferbot.Core.csproj" />
     <ProjectReference Include="..\Surferbot.Infrastructure\Surferbot.Infrastructure.csproj" />
-    <ProjectReference Include="..\Surferbot.Tests\Surferbot.Tests.csproj" />
   </ItemGroup>
 
 </Project>
