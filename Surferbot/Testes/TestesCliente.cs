@@ -12,11 +12,11 @@ using Surferbot.Infrastructure.Repositories.Clientes;
 
 namespace Testes
 {
-    public class UnitTest1
+    public class TestesCliente
     {
         private readonly IClienteUseCase _clienteUseCase;
 
-        public UnitTest1()
+        public TestesCliente()
         {
             CriarClienteDtoValidator clienteDtoValidator = new();
 
