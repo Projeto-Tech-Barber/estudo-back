@@ -1,4 +1,4 @@
-﻿namespace Surferbot.Application.Modelos.SurferbotContatos;
+﻿namespace Surferbot.Core.Entities.SurferbotContatos;
 
 public class SurferbotContato
 {

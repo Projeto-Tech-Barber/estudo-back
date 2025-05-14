@@ -12,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">
       <PrivateAssets>all</PrivateAssets>
@@ -28,10 +29,6 @@
 	
   <ItemGroup>
     <ContainerPort Include="8081" />
-  </ItemGroup>
-	
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 	
   <ItemGroup>

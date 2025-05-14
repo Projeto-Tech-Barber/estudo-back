@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Surferbot.Application.Modelos.SurferbotContatos;
+using Surferbot.Core.Entities.SurferbotContatos;
 using Surferbot.Infrastructure.Data.Mappings;
 
 namespace Surferbot.Infrastructure.Data;
