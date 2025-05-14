@@ -17,6 +17,7 @@ public class ContatoValidador : AbstractValidator<ContatoDto>
             .EmailAddress().WithMessage(ResourceErrorMessages.Erro_Email_Invalido);
 
         RuleFor(x => x.Mensagem)
-            .NotEmpty().WithMessage(ResourceErrorMessages.Erro_Mensagem);
+            .NotEmpty()
+            .WithMessage(ResourceErrorMessages.Erro_Mensagem);
     }
 }

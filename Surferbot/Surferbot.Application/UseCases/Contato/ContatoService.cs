@@ -17,7 +17,7 @@ public class ContatoService : IContatoService
     private readonly ContatoValidador _validador;
     private readonly IContatoRepository _repository;
 
-    public ContatoService(IMapper mapper, SurferbotContext context, ContatoValidador validador, IContatoRepository repository)
+    public ContatoService(IMapper mapper, ContatoValidador validador, IContatoRepository repository)
     {
         _mapper = mapper;
         _validador = validador;
