@@ -10,7 +10,7 @@ using Surferbot.Core.Entidades.SurferBotCliente;
 using Surferbot.Infrastructure.Data;
 using Surferbot.Infrastructure.Repositories.Clientes;
 
-namespace Testes
+namespace Testes.Clientes
 {
     public class TestesCliente
     {
@@ -29,7 +29,7 @@ namespace Testes
             var dboptions = new DbContextOptionsBuilder().UseInMemoryDatabase("Mydb");
             var surferbotContext = new SurferbotContext(dboptions.Options);
             IClienteRepository clienteRepository = new ClienteRepository(surferbotContext);
-            
+
             _clienteUseCase = new ClienteUseCase(clienteDtoValidator, mapper, clienteRepository);
         }
 

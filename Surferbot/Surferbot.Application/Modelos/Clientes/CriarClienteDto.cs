@@ -4,13 +4,13 @@ namespace Surferbot.Application.Modelos.Clientes
 {
     public class CriarClienteDto
     {
-        public  string Nome { get; init; }
-        public  string Email { get; init; }
-        public  string Cpf { get; init; }
-        public  string Endereco { get; init; }
-        public  string Estado { get; init; }
-        public  string Cidade { get; init; }
-        public  string Cep { get; init; }
+        public  string Nome { get; init; } = string.Empty;
+        public string Email { get; init; } = string.Empty;
+        public  string Cpf { get; init; } = string.Empty;
+        public  string Endereco { get; init; } = string.Empty;
+        public  string Estado { get; init; } = string.Empty;
+        public  string Cidade { get; init; } = string.Empty;
+        public  string Cep { get; init; } = string.Empty;
         public  Plano Plano { get; init; }
     }
 }
