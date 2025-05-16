@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Surferbot.Core\Surferbot.Core.csproj" />
+    <ProjectReference Include="..\Surferbot.Infrastructure\Surferbot.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

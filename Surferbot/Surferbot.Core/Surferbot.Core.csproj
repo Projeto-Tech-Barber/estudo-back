@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Exceptions\ResourceErrorMessages.Designer.cs">
+    <Compile Update="Exceptions\ExceptionsContato\ResourceErrorMessages.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ResourceErrorMessages.resx</DependentUpon>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Exceptions\ResourceErrorMessages.resx">
+    <EmbeddedResource Update="Exceptions\ExceptionsContato\ResourceErrorMessages.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourceErrorMessages.Designer.cs</LastGenOutput>
     </EmbeddedResource>

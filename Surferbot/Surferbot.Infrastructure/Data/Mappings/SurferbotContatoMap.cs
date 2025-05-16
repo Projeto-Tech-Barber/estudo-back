@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Surferbot.Application.Modelos.SurferbotContatos;
+using Surferbot.Core.Entities.SurferbotContatos;
 
 namespace Surferbot.Infrastructure.Data.Mappings;
 
